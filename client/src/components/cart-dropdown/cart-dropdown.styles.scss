@@ -16,15 +16,26 @@
     margin: 50px auto;
   }
 
+  ::-webkit-scrollbar {
+    background: white;
+    width: 7px;
+  }
+        
+  ::-webkit-scrollbar-thumb {
+    background: lightgray;
+    border-radius: 5px;
+  }
   .cart-items {
     height: 240px;
     display: flex;
     flex-direction: column;
-    overflow: scroll;
+    overflow-y: auto;
   }
 
   button {
     font-size: 12px;
     margin-top: auto;
   }
+
+
 }
