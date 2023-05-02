@@ -4,7 +4,7 @@
   height: 340px;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 10px;
   border: 1px solid black;
   background-color: white;
   top: 90px;
@@ -16,26 +16,19 @@
     margin: 50px auto;
   }
 
-  ::-webkit-scrollbar {
-    background: white;
-    width: 7px;
-  }
-        
-  ::-webkit-scrollbar-thumb {
-    background: lightgray;
-    border-radius: 5px;
-  }
-  .cart-items {
-    height: 240px;
-    display: flex;
-    flex-direction: column;
-    overflow-y: auto;
-  }
+
+.cart-items {
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
 
   button {
-    font-size: 12px;
+    font-size: 14px;
     margin-top: auto;
   }
-
-
 }
+
+
