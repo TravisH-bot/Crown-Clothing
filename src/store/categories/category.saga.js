@@ -26,5 +26,5 @@ export function* onFetchCategories() {
 }
 
 export function* categoriesSaga() {
-  yield all([call(fetchCategoriesAsync)]);
+  yield all([call(onFetchCategories)]);
 }
