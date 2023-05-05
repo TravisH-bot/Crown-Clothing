@@ -20,7 +20,6 @@ export const ProductCardContainer = styled.div`
     opacity: 0.7;
     position: absolute;
     top: 255px;
-    display: none;
   }
 
   &:hover {
@@ -34,6 +33,7 @@ export const ProductCardContainer = styled.div`
     }
   }
 `;
+
 export const Footer = styled.div`
   width: 100%;
   height: 5%;
