@@ -40,6 +40,12 @@ export const Footer = styled.div`
   display: flex;
   justify-content: space-between;
   font-size: 18px;
+  @media (max-width: 960px) {
+    margin-bottom: 15px;
+  }
+  @media (max-width: 400px) {
+    margin-bottom: 20px;
+  }
 `;
 
 export const Name = styled.span`
